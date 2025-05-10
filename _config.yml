@@ -1,1 +1,66 @@
-theme: jekyll-theme-slate
+title: "Bennett Preston Portfolio"
+description: "Algorithmic Trader Intern and Economics Graduate — Exploring Data, Analytics, and Quantitative Research"
+baseurl: "" # leave blank unless your site is in a subfolder
+url: "https://bspreston10.github.io/bennett-portfolio/" # your custom domain
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark" # available: air, contrast, dark, dirt, neon, sunrise, default
+
+author:
+  name: "Bennett Preston"
+  avatar: "/assets/images/avatar.png" # optional; add your profile photo here
+  bio: "Passionate about building trading strategies, uncovering hidden patterns, and transforming data into actionable insights."
+
+# Social Links
+social:
+  - label: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/yourusername"
+  - label: "LinkedIn"
+    icon: "fab fa-linkedin"
+    url: "https://linkedin.com/in/yourusername"
+  - label: "Email"
+    icon: "fas fa-envelope"
+    url: "mailto:your.email@example.com"
+
+# Navigation Links
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Portfolio (Example: 3 Projects)
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+
+# Example Project Entries
+projects:
+  - title: "Hybrid RSI + FOMC Trading Bot"
+    excerpt: "A live XAU/USD hybrid trading system blending RSI signals and macro event overlays, with adaptive risk sizing and execution audit metrics."
+    url: "/projects/hybrid-trading-bot"
+    image: "/assets/images/trading-bot.png"
+
+  - title: "HMM-Based Portfolio Optimizer"
+    excerpt: "An advanced asset allocation tool using Hidden Markov Models to detect market regimes and dynamically shift portfolio weights."
+    url: "/projects/hmm-optimizer"
+    image: "/assets/images/hmm-optimizer.png"
+
+  - title: "Options Volatility Surface Visualization"
+    excerpt: "An animated volatility surface project visualizing implied volatility across strike and maturity using historical NVIDIA options chain data."
+    url: "/projects/volatility-surface"
+    image: "/assets/images/volatility-surface.png"
