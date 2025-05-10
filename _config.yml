@@ -3,7 +3,7 @@ description: "Algorithmic Trader Intern and Economics Graduate — Exploring Dat
 baseurl: "" # leave blank unless your site is in a subfolder
 url: "https://bspreston10.github.io/bennett-portfolio/" # your custom domain
 
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-slate
 minimal_mistakes_skin: "dark" # available: air, contrast, dark, dirt, neon, sunrise, default
 
 author:
