@@ -15,13 +15,13 @@ author:
 social:
   - label: "GitHub"
     icon: "fab fa-github"
-    url: "https://github.com/yourusername"
+    url: "https://github.com/bspreston10"
   - label: "LinkedIn"
     icon: "fab fa-linkedin"
-    url: "https://linkedin.com/in/yourusername"
+    url: "https://www.linkedin.com/in/bennett-preston/"
   - label: "Email"
     icon: "fas fa-envelope"
-    url: "mailto:your.email@example.com"
+    url: "mailto:bennett.preston10@gmail.com"
 
 # Navigation Links
 nav:
@@ -52,8 +52,8 @@ defaults:
 projects:
   - title: "Hybrid RSI + FOMC Trading Bot"
     excerpt: "A live XAU/USD hybrid trading system blending RSI signals and macro event overlays, with adaptive risk sizing and execution audit metrics."
-    url: "/projects/hybrid-trading-bot"
-    image: "/assets/images/trading-bot.png"
+    url: "https://github.com/bspreston10/Macro-Regime-and-Allocation-Strategy-HMM"
+    image: ""
 
   - title: "HMM-Based Portfolio Optimizer"
     excerpt: "An advanced asset allocation tool using Hidden Markov Models to detect market regimes and dynamically shift portfolio weights."
